@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.top-bar {
+    padding: 8px;
+    background-color: #1c648b;
+}
+
+.logo {
+    width: 13vh;
+    height: 13vh;
+}
+
+.navbar {
+    background-color: #000000;
+    /* box-shadow:inset -1px -1px 5px 7px #e28743; */
+
+}
+
+.banner-img {
+    height: 600px;
+}
+
+.item img {
+    height: 80vh;
+}
+
+.owl-next {
+    position: absolute;
+    right: 0 !important;
+    top: 40%;
+
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(237, 225, 221) !important;
+    color: white;
+    border-radius: 50px !important;
+}
+
+.owl-prev {
+    position: absolute;
+    left: 0 !important;
+    top: 40%;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(237, 225, 221) !important;
+    color: white;
+    border-radius: 50px !important;
+}
+
+.owl-two .owl-item img {
+    border-radius: 50%;
+
+}
+
+.benefit {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    margin-top: -10px;
+    background-color: #1c648b;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.benefit .image img {
+    float: left;
+    margin: 25px;
+}
+
+.benefit .title {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #ec7c24;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.benefit .desc {
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 0.9rem;
+}
+
+.benefit:hover {
+    background-color: black;
+}
+
+
+
+.heading {
+    margin: 5% 5px;
+    font-size: 2.2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+.top {
+    background-color: #1c648b !important;
+}
+
+.top .heading {
+    color: white;
+}
+
+
+
+.top .card:hover {
+    transition: .2s ease-in-out;
+    -webkit-transform: scale(1.05);
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.tour {
+    background-color: #edecec;
+    padding: 4rem 1rem;
+}
+
+
+.tour .heading {
+
+    margin: 10px 5px;
+    font-size: 2.2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+.tour .sec-heading {
+
+    font-size: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    color: rgb(159, 5, 5);
+}
+
+.tour p {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1rem;
+}
+
+.offers {
+
+    width: 100%;
+    height: 70vh;
+    background-image: url(images/smile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    filter: brightness(50%);
+    background-attachment: fixed;
+
+}
+
+.offer-card {
+
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #ffc45f;
+
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.offer-card .heading {
+
+    margin: 5px;
+    font-size: 2rem;
+    color: #0b0b0b;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+.offer-card .sec-heading {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.footer {
+    background-color: #000000;
+    color: white;
+    padding: 30px 10px;
+    margin-top: 30px;
+}
+
+.footer .footer-item {
+    list-style-type: none;
+}
+
+.footer .footer-item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: 'Merriweather', 'Sans&family';
+}
+
+.footer .footer-item a:hover {
+    color: #1c648b;
+}
+
+
+.content h6 {
+    font-size: 1.5rem;
+    padding: 10px 2px;
+}
+
+.content p {
+    font-family: 'Merriweather', 'Sans&family';
+    word-spacing: 5px;
+}
+ 
+.theme .pic {
+    margin: 10px;
+    background: black;
+    overflow: hidden;
+    border-radius: 10px;
+    position:relative;
+}
+
+.theme img {
+    width: 23vw;
+    height: 35vh;
+
+}
+
+.theme img:hover {
+    object-fit: cover;
+    opacity: 0.4;
+
+}
+
+.theme h6{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: center;
+  background-color:rgba(105, 230, 255, 0.7);
+  
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+
+
+ 
